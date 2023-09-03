@@ -1,0 +1,15 @@
+site_name: Transition Toronto Climate Resilience
+repo_url: https://github.com/diluisi/ttcr
+repo_name: diluisi/ttcr
+edit_uri: tree/master
+
+theme:
+  name: material
+#  logo: assets/logo.png
+#  favicon: assets/logo.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
