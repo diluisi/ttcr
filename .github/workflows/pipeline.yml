@@ -7,8 +7,8 @@ jobs:
 
     steps:
       - name: copy repositories from git
-      - uses: actions/checkout@v3.6.0
+        uses: actions/checkout@v3.6.0
 
       - name: test command
-      - run: echo $(ls)
+        run: echo $(ls)
 
