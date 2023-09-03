@@ -1,0 +1,14 @@
+name: pipeline
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: copy repositories from git
+      - uses: actions/checkout@v3.6.0
+
+      - name: test command
+      - run: echo $(ls)
+
