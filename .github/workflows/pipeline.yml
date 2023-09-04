@@ -9,6 +9,8 @@ jobs:
       - name: copy repositories from git
         uses: actions/checkout@v3.6.0
 
-      - name: test command
-        run: echo $(ls)
+      - name: Python install
+        uses: actions/setup-python@v4
+        with:
+          python-version:'3.10'
 
