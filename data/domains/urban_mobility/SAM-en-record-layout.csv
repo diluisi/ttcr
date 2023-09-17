@@ -1,0 +1,17 @@
+Field name,Data type,Description,Field type
+DBUID,int64,"Uniquely identifies a dissemination block (composed of the 2-digit province/territory unique identifier followed by the 2-digit census division code, the 4-digit dissemination area code and the 3-digit dissemination block code).",Geographic code
+CSDUID,int64,Uniquely identifies a census subdivision (composed of the 2-digit province/territory unique identifier followed by the 2-digit census division code and the 3-digit census subdivision code).,Geographic code
+CSDNAME,object,Census subdivision name.,Geographic name
+CMAUID,int64,Uniquely identifies a census metropolitan area/census agglomeration.,Geographic code
+CMANAME,object,Census metropolitan area or census agglomeration name.,Geographic name
+PRUID,int64,Uniquely identifies a province or territory.,Geographic code
+PRCODE,object,Province or territory code.,Geographic name
+acs_idx_hf,float64,Normalised value of a dissemination block's access to health care facilities.,Access index
+acs_idx_emp,float64,Normalised value of a dissemination block's access to employment.,Access index
+acs_idx_srf,float64,Normalised value of a dissemination block's access to sports and recreation facilities.,Access index
+acs_idx_psef,float64,Normalised value of a dissemination block's access to post-secondary education facilities.,Access index
+acs_idx_ef,float64,Normalised value of a dissemination block's access to primary and secondary education facilities.,Access index
+acs_idx_caf,float64,Normalised value of a dissemination block's access to cultural and arts facilities.,Access index
+acs_lvl_gs-1,float64,Time in minutes to reach the closest grocery store,Access level
+acs_lvl_gs-3,float64,Time in minutes to reach the 3rd closest grocery store,Access level
+acs_lvl_gs-5,float64,Time in minutes to reach the 5th closest grocery store,Access level
